@@ -1,3 +1,4 @@
+#you need to note doctest file format
 >>> from frenchdeck import FrenchDeck, Card
 >>> beer_card = Card('7', 'diamonds')
 >>> beer_card

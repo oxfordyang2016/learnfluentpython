@@ -4,6 +4,7 @@ import collections
 # or,you can use C = collections.namedtuple('Dard', ['rank', 'suit'])
 #d=C('7','d')
 #print(d) will print  Dard(rank='7', suit='d')
+#you can refer to http://book.pythontips.com/en/latest/collections.html
 Card = collections.namedtuple('Card', ['rank', 'suit'])
 
 class FrenchDeck:

@@ -69,7 +69,8 @@ def testfunction():
         rank_value = FrenchDeck.ranks.index(card.rank)# this is order to get index of value
         # will use
         return rank_value * len(suit_values) + suit_values[card.suit]
-        #index*
+        #index*lenth of dict +suit_values[]+[0,1,2,3]
+
 
 
 
@@ -79,7 +80,7 @@ how to get list value's index
 a=[1,2,3,4,5,6]
 a.index(1)
 
-when get len(dictionary),you will gety lenth of 
+when get len(dictionary),you will gety lenth of  and how to produce dictionary
 dictioarty,it will equeal to the number of keys
 In [160]: print(dict(spades=3, hearts=2, diamonds=1, clubs=0))
 {'spades': 3, 'clubs': 0, 'diamonds': 1, 'hearts': 2}

@@ -20,6 +20,7 @@ Card(rank='2', suit='spades')
 Card(rank='3', suit='spades')
 Card(rank='4', suit='spades')
 ...
+
 #reverse interate a list
 >>> for card in reversed(deck):  # doctest: +ELLIPSIS
 ...   print(card)
@@ -33,6 +34,8 @@ Card(rank='Q', suit='hearts')
 2 Card(rank='3', suit='spades')
 3 Card(rank='4', suit='spades')
 ...
+
+
 #this is for in order to set a dict
 i want to say that this return value is order by rank value+suitvalues.from small to big
 >>> suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)

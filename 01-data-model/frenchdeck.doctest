@@ -20,6 +20,7 @@ Card(rank='2', suit='spades')
 Card(rank='3', suit='spades')
 Card(rank='4', suit='spades')
 ...
+#reverse interate a list
 >>> for card in reversed(deck):  # doctest: +ELLIPSIS
 ...   print(card)
 Card(rank='A', suit='hearts')

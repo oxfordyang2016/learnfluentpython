@@ -1,5 +1,5 @@
-#you need to note doctest file format
->>> from frenchdeck import FrenchDeck, Card
+
+>>> from frenchdeck import FrenchDeck, Card#you need to note doctest file format
 >>> beer_card = Card('7', 'diamonds')
 >>> beer_card
 Card(rank='7', suit='diamonds')
@@ -34,6 +34,7 @@ Card(rank='Q', suit='hearts')
 3 Card(rank='4', suit='spades')
 ...
 #this is for in order to set a dict
+i want to say that this return value is order by rank value+suitvalues.from small to big
 >>> suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
 >>> def spades_high(card):
 ...     rank_value = FrenchDeck.ranks.index(card.rank)

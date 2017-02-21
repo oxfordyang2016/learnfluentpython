@@ -46,14 +46,24 @@ class FrenchDeck:
 
 def testfunction():
     '''
-    #this is a test you must note test position
+    hahhahhhhahh-------this is my random writting
+    this is a test you must note test position
     >>> deck = FrenchDeck()
     >>> len(deck)
     52
+    
+    you need to comment here use above a line space
+    >>> len('yangming')
+    8
+
+    this is used to show how to  in doctest use comment
+    >>> len('yang')
+    4
     '''
     print('hello')
     def spades_high(card):
         '''
+        you can use all kinds of comment style,but you need to use a line space to identify nnext doctest
         >>> spades_high(Card('2', 'clubs'))
         0
         >>> spades_high(Card('A', 'spades'))

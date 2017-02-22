@@ -6,14 +6,24 @@ class Vector:
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
-
+    '''
+    #to implement str method().
+    if  you donot implement the __repr__ method you will 
+    get  such as things,<vector2d.Vector at 0x5142f98>
+    '''
     def __repr__(self):
         return 'Vector(%r, %r)' % (self.x, self.y)
-
+    
     def __abs__(self):
+        print('i was invoked')
         return hypot(self.x, self.y)
 
     def __bool__(self):
+        '''
+        you can undertand that it invoke __abs__(self) method
+        python class how to invoke my class method 1
+        '''
+        print(abs(self))
         return bool(abs(self))
 
     def __add__(self, other):
@@ -22,7 +32,11 @@ class Vector:
         return Vector(x, y)
 
     def __mul__(self, scalar):
+        '''
+        in class ,return this class's instance 
+        '''
         return Vector(self.x * scalar, self.y * scalar)
+      
 
 
 

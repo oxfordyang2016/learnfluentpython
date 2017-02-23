@@ -1,0 +1,25 @@
+#python 2 and python 3 in comprelist
+#python 2
+
+#from now opinion,separate test should not include
+#if you include [x for x in '123'],you next line shoul be  a list other than next >>> 
+#doctest  only see >>>
+>>> x='312'
+>>> [x for x in '123456'] 
+[1,2,3,4,5,6] 
+>>> x
+6
+
+
+>>> x = 'my precious'
+>>> dummy = [x for x in 'ABC']
+>>> x
+'C'
+
+
+
+>>> x='y'
+>>> dum=[x for x in 'abc']
+>>> x
+'y'
+

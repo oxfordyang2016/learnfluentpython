@@ -17,7 +17,12 @@ such as  <generator object <genexpr> at 0x00000000050107E0>
 but when you use [k for k in ((a,b) for a in 'srting' for b in 'ming') ],it will produce a list
 '''
 
-
+# sort a list 2 (fp 27)
+'''
+>>> traveler_ids = [('USA', '31195855'), ('BRA', 'CE342567'),('ESP', 'XDA205856')]
+>>> sorted(traveler_ids) 
+[('BRA', 'CE342567'), ('ESP', 'XDA205856'), ('USA', '31195855')]
+'''
 import bisect
 import sys
 

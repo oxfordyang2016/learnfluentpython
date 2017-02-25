@@ -14,3 +14,11 @@ Example code for the book `Fluent Python`_ by Luciano Ramalho (O'Reilly, 2014).
 * No promises. No guarantees. Use at own risk.
 
 .. _Fluent Python: http://shop.oreilly.com/product/0636920032519.do 
+
+# the fluent python thesis i donot understand
+'''
+fp page 41 bytecode
+'''
+
+
+
